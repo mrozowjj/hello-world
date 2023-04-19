@@ -1,8 +1,9 @@
+h1 {
+    color: greenyellow;
+  }
+
 body {
-    background-color: lightblue;
+    background-color: black;
+    color: greenyellow;
   }
   
-  h1 {
-    color: navy;
-    margin-left: 20px;
-  }
