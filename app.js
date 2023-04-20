@@ -1,5 +1,7 @@
 'use strict';
 
+
+
 if(confirm("Do you like Zoidberg?"))
 {
     document.write('<html><img src="Zoidberg-Jesus.jpg" alt="You have good taste."></img></html>')
