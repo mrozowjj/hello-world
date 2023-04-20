@@ -11,14 +11,14 @@ function lightDark()
 {
     const StyleMode = prompt("Light or dark mode?");
 
-    // if(stylePreference == 'dark')
-    // {
-    
-    // }
-    // else
-    // {
-    
-    // }
+    if(stylePreference == 'dark')
+     {
+        document.write('<link rel="stylesheet" href="dark-style.css"></link>');
+     }
+     else
+     {
+        document.write('<link rel="stylesheet" href="style.css"></link>');
+     }
 
     return StyleMode;
 }
