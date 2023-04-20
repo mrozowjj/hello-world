@@ -26,9 +26,9 @@ function lightDark()
 function zoidberg()
 {
 
-    const ZoidbergLove;
+    let ZoidbergLove = "empty";
 
-    while(ZoidbergLove == null)
+    while(ZoidbergLove == "empty")
     {
        ZoidbergLove = prompt("Do you like Zoidberg?");   
     }
@@ -36,11 +36,11 @@ function zoidberg()
 
     if(ZoidbergLove == "yes")
     {
-        document.write('<html><img src="Zoidberg-Jesus.jpg" alt="You have good taste."></img></html>')
+        document.write('<html><img src="Zoidberg-Jesus.jpg" alt="You have good taste."></img></html>');
     }
     else
     {
-        document.write('<html><img src="why-not-zoidberg-a3d22c7060.jpg" alt="We\'re ashamed of you"></img></html>')
+        document.write('<html><img src="why-not-zoidberg-a3d22c7060.jpg" alt="We\'re ashamed of you"></img></html>');
     }
 
     return;
