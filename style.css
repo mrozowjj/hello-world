@@ -14,3 +14,9 @@ a:link{
 a:visited{
     color: green
 }
+
+nav ul li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
