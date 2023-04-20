@@ -11,7 +11,7 @@ function lightDark()
 {
     const StyleMode = prompt("Light or dark mode?");
 
-    if(stylePreference == 'dark')
+    if(StyleMode == 'dark')
      {
         document.write('<link rel="stylesheet" href="dark-style.css"></link>');
      }
@@ -20,7 +20,7 @@ function lightDark()
         document.write('<link rel="stylesheet" href="style.css"></link>');
      }
 
-    return StyleMode;
+    return;
 }
 
 function zoidberg()
