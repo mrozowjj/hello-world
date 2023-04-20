@@ -26,7 +26,15 @@ function lightDark()
 function zoidberg()
 {
 
-    if(confirm("Do you like Zoidberg?"))
+    const ZoidbergLove;
+
+    while(ZoidbergLove == null)
+    {
+       ZoidbergLove = prompt("Do you like Zoidberg?");   
+    }
+
+
+    if(ZoidbergLove == "yes")
     {
         document.write('<html><img src="Zoidberg-Jesus.jpg" alt="You have good taste."></img></html>')
     }
