@@ -19,9 +19,12 @@ nav ul li {
   list-style: none;
   text-decoration: none;
   display: inline-block;
+  padding-block: 5%;
+  padding-inline: 10%;
 }
 
-
 img{
-  width: 50%;
+  size: 40%;
+  justify-content: space-around;
+  padding: 5%;
 }
