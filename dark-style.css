@@ -20,3 +20,7 @@ nav ul li {
   text-decoration: none;
   display: inline-block;
 }
+
+img{
+  width: 50%;
+}

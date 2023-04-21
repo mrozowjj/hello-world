@@ -26,9 +26,9 @@ function lightDark()
 function zoidberg()
 {
 
-    let ZoidbergLove = "empty";
+    let ZoidbergLove = null;
 
-    while(ZoidbergLove == "empty")
+    while(ZoidbergLove == null)
     {
        ZoidbergLove = prompt("Do you like Zoidberg?");   
     }
